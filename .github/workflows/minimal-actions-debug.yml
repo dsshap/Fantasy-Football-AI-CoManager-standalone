@@ -3,7 +3,7 @@ name: Minimal Actions Debug
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/5 * * * *' # re-arm after first manual run
 
 jobs:
   ping:
